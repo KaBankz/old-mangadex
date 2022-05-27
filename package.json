@@ -18,5 +18,10 @@
     "eslint-plugin-vue": "^9.0.1",
     "nuxt": "3.0.0-rc.3",
     "nuxt-windicss": "^2.3.2"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/vue-fontawesome": "3.0.0-5"
   }
 }
