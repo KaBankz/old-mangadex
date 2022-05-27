@@ -1,5 +1,6 @@
 <template>
-  <div class="px-50">
+  <NavBar />
+  <main class="px-50">
     <slot />
-  </div>
+  </main>
 </template>
