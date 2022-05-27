@@ -2,7 +2,7 @@ module.exports = {
   root: true,
   env: {
     browser: true,
-    node: true,
+    node: false,
   },
   parserOptions: {
     ecmaVersion: 2020,
@@ -16,5 +16,11 @@ module.exports = {
     'plugin:prettier/recommended',
   ],
   plugins: ['@typescript-eslint'],
-  rules: {},
+  rules: {
+    'vue/object-property-newline': ['error'],
+    'vue/new-line-between-multi-line-property': ['error'],
+    'vue/multiline-html-element-content-newline': ['error'],
+    'vue/multi-word-component-names': ['off'],
+    'prettier/prettier': ['warn', { singleQuote: true }],
+  },
 };
