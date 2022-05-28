@@ -8,7 +8,7 @@
               <img
                 src="~/assets/mangadex-logo.svg"
                 alt="logo"
-                class="inline-block group-hover:(animate-spin) filter grayscale-[100]"
+                class="inline-block filter grayscale-[100] group-hover:(animate-spin grayscale-0)"
               />
             </a>
           </div>
