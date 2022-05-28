@@ -16,7 +16,7 @@
       </span>
       <span>
         <div class="flex justify-between">
-          <div class="truncate">
+          <div class="truncate flex-grow basis-2/3">
             <fa icon="file" :fixed-width="true" class="mr-1" />
             <a :href="`/chapter/${chapterId}`" class="text-blue-700">
               <span v-if="volume">Vol.{{ `${volume} ` }}</span>
@@ -28,7 +28,7 @@
               </span>
             </a>
           </div>
-          <div class="truncate">
+          <div class="truncate basis-auto flex-shrink">
             <fa icon="eye" :fixed-width="true" class="mr-1" />
             <span>69,420</span>
           </div>
