@@ -57,6 +57,13 @@
           7d
         </button>
       </div>
+      <div class="flex flex-col border-x border-b border-gray-300 rounded-b-md">
+        <MangaBasicCard />
+        <MangaBasicCard />
+        <MangaBasicCard />
+        <MangaBasicCard />
+        <MangaBasicCard />
+      </div>
     </div>
   </div>
 </template>
