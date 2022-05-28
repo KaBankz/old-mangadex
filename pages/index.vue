@@ -21,7 +21,7 @@
           Follows
         </button>
       </div>
-      <div class="grid grid-cols-2 bg-gray-200">
+      <div class="grid grid-cols-2 bg-gray-200 rounded-b-md">
         <MangaCard />
         <MangaCard />
         <MangaCard />
