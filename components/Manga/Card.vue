@@ -10,7 +10,7 @@
     <div class="col-span-2 flex flex-col gap-2">
       <span class="border border-b-gray-300">
         <fa icon="book" :fixed-width="true" class="mr-1" />
-        <a href="#" class="text-blue-700">Hello World</a>
+        <a href="#" class="font-bold text-blue-700">Hello World</a>
       </span>
       <span>
         <fa icon="file" :fixed-width="true" class="mr-1" />
