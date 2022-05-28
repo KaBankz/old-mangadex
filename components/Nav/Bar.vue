@@ -3,13 +3,20 @@
     <ul>
       <slot>
         <li class="inline mr-4">
-          <div class="relative inline-block text-left group">
-            <a href="#">
+          <div
+            class="relative inline-block text-left text-white font-bold group"
+          >
+            <a href="/" title="MangaDex OLD">
               <img
                 src="~/assets/mangadex-logo.svg"
                 alt="logo"
                 class="inline-block filter grayscale-[100] group-hover:(animate-spin grayscale-0)"
               />
+              <div
+                class="inline-block bg-gray-400 ml-1 px-1 rounded-lg group-hover:(bg-orange-400)"
+              >
+                OLD
+              </div>
             </a>
           </div>
         </li>
