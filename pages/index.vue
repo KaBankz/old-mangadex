@@ -21,6 +21,13 @@
           Follows
         </button>
       </div>
+      <div class="grid grid-cols-2 bg-gray-200">
+        <MangaCard />
+        <MangaCard />
+        <MangaCard />
+        <MangaCard />
+        <MangaCard />
+      </div>
     </div>
     <div class="w-full">
       <div
