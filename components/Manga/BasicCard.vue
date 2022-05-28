@@ -1,6 +1,6 @@
 <template>
   <div class="grid grid-cols-5 p-2 border-t border-gray-300 h-24">
-    <a href="#">
+    <a href="#" class="hover:z-10">
       <img
         src="https://mangadex.org/covers/6b958848-c885-4735-9201-12ee77abcb3c/101ada2e-2bc1-4247-be2f-72230d0a0346.jpg"
         alt="temp"
