@@ -69,11 +69,22 @@
         </button>
       </div>
       <div class="flex flex-col border-x border-b border-gray-300 rounded-b-md">
-        <MangaBasicCard />
-        <MangaBasicCard />
-        <MangaBasicCard />
-        <MangaBasicCard />
-        <MangaBasicCard />
+        <MangaBasicCard
+          v-for="chapter in latestChapters"
+          :key="chapter.id"
+          :volume="chapter.volume"
+          :chapter="chapter.chapter"
+          :title="chapter.title"
+          :cover="`https://uploads.mangadex.org/covers/${chapter.manga.id}/${chapter.cover}.256.jpg`"
+          :manga-title="chapter.manga.attributes.title?.en"
+          :manga-id="chapter.manga.id"
+          :chapter-id="chapter.id"
+          :scanlation-group="chapter.scanlation_group?.attributes.name"
+          :scanlation-group-id="chapter.scanlation_group?.id"
+          :uploader="chapter.user.attributes.username"
+          :uploader-id="chapter.user.id"
+          :uploaded-at="chapter.readableAt"
+        />
       </div>
     </div>
   </div>
