@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-cols-3 my-2">
+  <div class="grid grid-cols-3 py-2 border border-t-gray-300">
     <a href="#">
       <img
         src="https://mangadex.org/covers/6b958848-c885-4735-9201-12ee77abcb3c/101ada2e-2bc1-4247-be2f-72230d0a0346.jpg"
