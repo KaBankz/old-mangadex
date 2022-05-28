@@ -39,7 +39,7 @@
   </div>
 </template>
 
-<style>
+<style scoped>
 div > :first-child {
   @apply rounded-t-md;
 }
