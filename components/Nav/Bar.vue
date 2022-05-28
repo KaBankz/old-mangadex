@@ -61,6 +61,7 @@
     </ul>
     <ul>
       <slot name="right">
+        <NavSearchBar />
         <NavItem>
           <fa icon="gear" />
         </NavItem>
