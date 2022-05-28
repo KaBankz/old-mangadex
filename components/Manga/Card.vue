@@ -8,19 +8,19 @@
       />
     </a>
     <div class="col-span-2 flex flex-col gap-2">
-      <span class="border-b border-gray-300">
+      <span class="border-b border-gray-300 truncate">
         <fa icon="book" :fixed-width="true" class="mr-1" />
         <a href="#" class="font-bold text-blue-700">Hello World</a>
       </span>
-      <span>
+      <span class="truncate">
         <fa icon="file" :fixed-width="true" class="mr-1" />
         <a href="#" class="text-blue-700">Vol.2 Chapter 8.2 🇺🇸</a>
       </span>
-      <span>
+      <span class="truncate">
         <fa icon="users" :fixed-width="true" class="mr-1" />
         <a href="#" class="text-blue-700">KaBanks</a>
       </span>
-      <span>
+      <span class="truncate">
         <fa icon="clock" :fixed-width="true" class="mr-1" />
         <span>69 secs</span>
       </span>
