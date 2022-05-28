@@ -7,7 +7,7 @@
         class="rounded-l-md border-2 border-gray-300 px-2 hover:(bg-gray-100 border-gray-500) focus:(outline-none border-gray-500)"
       >
         <option value="manga">Manga</option>
-        <option value="forum">Forum</option>
+        <option value="form">Form</option>
       </select>
       <input
         type="text"
