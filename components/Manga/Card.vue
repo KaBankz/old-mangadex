@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-cols-3 py-2 border border-t-gray-300">
+  <div class="grid grid-cols-3 py-2 border-t border-gray-300">
     <a href="#">
       <img
         src="https://mangadex.org/covers/6b958848-c885-4735-9201-12ee77abcb3c/101ada2e-2bc1-4247-be2f-72230d0a0346.jpg"
@@ -8,7 +8,7 @@
       />
     </a>
     <div class="col-span-2 flex flex-col gap-2">
-      <span class="border border-b-gray-300">
+      <span class="border-b border-gray-300">
         <fa icon="book" :fixed-width="true" class="mr-1" />
         <a href="#" class="font-bold text-blue-700">Hello World</a>
       </span>
