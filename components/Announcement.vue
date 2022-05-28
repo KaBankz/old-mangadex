@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-50 my-4 rounded-md text-center" id="temp">
+  <div class="rounded-md text-center" id="temp">
     <div
       class="border border-blue-300 bg-gradient-to-b from-blue-100 to-blue-200 p-4 transition duration-150 ease-in-out transform truncate hover:(from-blue-200)"
     >

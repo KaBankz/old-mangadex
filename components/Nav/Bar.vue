@@ -1,5 +1,5 @@
 <template>
-  <nav class="px-50 bg-gray-100 max-h-20 flex justify-between">
+  <nav class="bg-gray-100 max-h-20 flex justify-between">
     <ul>
       <slot>
         <li class="inline mr-4">
