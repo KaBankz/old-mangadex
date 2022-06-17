@@ -1,10 +1,10 @@
 <template>
   <div class="grid grid-cols-3 py-2 px-2 border-t border-gray-300">
-    <a href="#" class="hover:z-10">
+    <a href="#" class="hover:z-10 pr-2">
       <img
         :src="cover"
         alt="temp"
-        class="pr-2 transition duration-150 ease-in-out transform hover:scale-125"
+        class="transition duration-150 ease-in-out transform rounded-md hover:(scale-150 shadow-lg shadow-dark-100)"
       />
     </a>
     <div class="col-span-2 flex flex-col gap-2">
