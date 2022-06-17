@@ -2,7 +2,7 @@
   <div class="grid grid-cols-3 gap-10">
     <div class="w-full col-span-2">
       <div
-        class="bg-gray-200 rounded-t-md border border-gray-300 p-4 text-center"
+        class="bg-gray-200 rounded-t-md border border-gray-300 p-3 text-center"
       >
         <a href="#" class="text-blue-700">
           <fa icon="arrow-up-right-from-square" />
@@ -11,12 +11,12 @@
       </div>
       <div class="flex justify-between text-center bg-gray-200">
         <button
-          class="w-full p-4 text-blue border border-gray-300 focus:(text-white bg-blue-500)"
+          class="w-full p-3 text-blue border border-gray-300 focus:(text-white bg-blue-500)"
         >
           All
         </button>
         <button
-          class="w-full p-4 text-blue border border-gray-300 focus:(text-white bg-blue-500)"
+          class="w-full p-3 text-blue border border-gray-300 focus:(text-white bg-blue-500)"
         >
           Follows
         </button>
@@ -44,7 +44,7 @@
     </div>
     <div class="w-full">
       <div
-        class="bg-gray-200 rounded-t-md border border-gray-300 p-4 text-center"
+        class="bg-gray-200 rounded-t-md border border-gray-300 p-3 text-center"
       >
         <a href="#" class="text-blue-700">
           <fa icon="arrow-up-right-from-square" />
@@ -53,17 +53,17 @@
       </div>
       <div class="flex justify-between text-center bg-gray-200">
         <button
-          class="w-full p-4 text-blue border border-gray-300 focus:(text-white bg-blue-500)"
+          class="w-full p-3 text-blue border border-gray-300 focus:(text-white bg-blue-500)"
         >
           6h
         </button>
         <button
-          class="w-full p-4 text-blue border border-gray-300 focus:(text-white bg-blue-500)"
+          class="w-full p-3 text-blue border border-gray-300 focus:(text-white bg-blue-500)"
         >
           24h
         </button>
         <button
-          class="w-full p-4 text-blue border border-gray-300 focus:(text-white bg-blue-500)"
+          class="w-full p-3 text-blue border border-gray-300 focus:(text-white bg-blue-500)"
         >
           7d
         </button>

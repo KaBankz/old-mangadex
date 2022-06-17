@@ -4,7 +4,7 @@
       <img
         :src="cover"
         alt="temp"
-        class="px-2 h-20 transition duration-150 ease-in-out transform hover:scale-200"
+        class="pr-2 h-20 transition duration-150 ease-in-out transform hover:scale-200"
       />
     </a>
     <div class="col-span-4 flex flex-col gap-2">
