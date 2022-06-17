@@ -24,7 +24,7 @@
               <span
                 v-if="title && !title.toLocaleLowerCase().includes('chapter')"
               >
-                {{ title }}🇺
+                {{ title }}
               </span>
             </a>
           </div>

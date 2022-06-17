@@ -20,7 +20,7 @@
           <span v-if="volume">Vol.{{ `${volume} ` }}</span>
           <span v-if="chapter">Ch.{{ `${chapter} ` }}</span>
           <span v-if="title && !title.toLocaleLowerCase().includes('chapter')">
-            {{ title }}🇺
+            {{ title }}
           </span>
         </a>
       </span>
