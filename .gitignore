@@ -2,6 +2,7 @@
 *.log*
 .nitro
 .output
+mockups/
 
 # Created by https://www.toptal.com/developers/gitignore/api/nuxtjs
 # Edit at https://www.toptal.com/developers/gitignore?templates=nuxtjs
