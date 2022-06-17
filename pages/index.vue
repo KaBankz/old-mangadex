@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-cols-3 gap-10">
+  <div class="grid grid-cols-3 gap-5">
     <div class="w-full col-span-2">
       <div
         class="bg-gray-200 rounded-t-md border border-gray-300 p-2 text-center"
@@ -44,7 +44,7 @@
     </div>
     <div class="w-full">
       <div
-        class="bg-gray-200 rounded-t-md border border-gray-300 p- text-center"
+        class="bg-gray-200 rounded-t-md border border-gray-300 p-2 text-center"
       >
         <a href="#" class="text-blue-700">
           <fa icon="arrow-up-right-from-square" />
