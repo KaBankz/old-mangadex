@@ -254,13 +254,49 @@
       </div>
     </div>
 
-    <!-- carrousels -->
+    <!-- carousels -->
     <div class="w-full col-span-3 flex flex-col gap-5">
       <div>
-        <h2 class="text-3xl font-semibold">Featured Titles</h2>
+        <div class="flex justify-between">
+          <h2 class="text-3xl font-semibold">Featured Titles</h2>
+          <div>
+            <button class="p-2 bg-gray-200 rounded-md border border-gray-400">
+              <fa icon="chevron-left" />
+            </button>
+            <button class="p-2 bg-gray-200 rounded-md border border-gray-400">
+              <fa icon="pause" />
+            </button>
+            <button class="p-2 bg-gray-200 rounded-md border border-gray-400">
+              <fa icon="chevron-right" />
+            </button>
+          </div>
+        </div>
+        <div class="flex">
+          <img src="https://c.tenor.com/h-m9xK9UEhUAAAAC/lvdc.gif" alt="" />
+          <img src="https://c.tenor.com/h-m9xK9UEhUAAAAC/lvdc.gif" alt="" />
+          <img src="https://c.tenor.com/h-m9xK9UEhUAAAAC/lvdc.gif" alt="" />
+        </div>
       </div>
       <div>
-        <h2 class="text-3xl font-semibold">New Titles</h2>
+        <div class="flex justify-between">
+          <h2 class="text-3xl font-semibold">New Titles</h2>
+          <div>
+            <button class="p-2 bg-gray-200 rounded-md border border-gray-400">
+              <fa icon="chevron-left" />
+            </button>
+            <button class="p-2 bg-gray-200 rounded-md border border-gray-400">
+              <fa icon="pause" />
+            </button>
+            <button class="p-2 bg-gray-200 rounded-md border border-gray-400">
+              <fa icon="chevron-right" />
+            </button>
+          </div>
+        </div>
+        <div class="flex">
+          <img src="https://c.tenor.com/h-m9xK9UEhUAAAAC/lvdc.gif" alt="" />
+          <img src="https://c.tenor.com/h-m9xK9UEhUAAAAC/lvdc.gif" alt="" />
+          <img src="https://c.tenor.com/h-m9xK9UEhUAAAAC/lvdc.gif" alt="" />
+        </div>
       </div>
     </div>
   </div>
